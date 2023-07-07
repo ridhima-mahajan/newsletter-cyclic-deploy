@@ -76,5 +76,5 @@ app.listen(process.env.PORT||3000,function(){
     console.log("Server is running at port "+process.env.PORT);
 })
 
-
-//https://vast-flip-flops-bull.cyclic.app   :-APP SERVER LIVE URL
+//e1b15aed9fe19967074f7087a443f136-us11   API KEY
+//71293f25a2   ListId
