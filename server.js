@@ -39,7 +39,7 @@ app.post("/",function(request,response){
     const url="https://us11.api.mailchimp.com/3.0/lists/71293f25a2";
     const options={
         method:"POST",
-        auth:"ridhima30:e1b15aed9fe19967074f7087a443f136-us11"
+        auth:"ridhima30:7bbf02458942597140e24053b22c41f8-us11"
     };
 
     //https.request(url,[options,]callback) method is used to post to the external server.
@@ -75,6 +75,6 @@ app.listen(process.env.PORT||3000,function(){
     console.log("Server is running at port "+process.env.PORT);
 })
 
-//e1b15aed9fe19967074f7087a443f136-us11   API KEY
+//7bbf02458942597140e24053b22c41f8-us11  API KEY
 //71293f25a2   ListId
 //https://vast-flip-flops-bull.cyclic.app   :-APP SERVER LIVE URL
