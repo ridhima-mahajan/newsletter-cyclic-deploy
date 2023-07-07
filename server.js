@@ -45,7 +45,7 @@ app.post("/",function(request,response){
     //https.request(url,[options,]callback) method is used to post to the external server.
 
     const req=https.request(url,options,function(resp){
-
+        console.log(resp.statusCode);
         if(resp.statusCode===200){
             response.sendFile(__dirname+"/success.html");
         }
@@ -77,3 +77,4 @@ app.listen(process.env.PORT||3000,function(){
 
 //e1b15aed9fe19967074f7087a443f136-us11   API KEY
 //71293f25a2   ListId
+//https://vast-flip-flops-bull.cyclic.app   :-APP SERVER LIVE URL
